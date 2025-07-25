@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@theme {
+  --color-resume-tan-100: #f7f7f2;
+  --color-resume-tan-200: #edebd9;
+  --color-resume-teal-100: #00848c;
+  --color-resume-teal-200: #037272;
+  --color-resume-blue-100: #1c1f4c;
+  --color-resume-yellow-100: #fccf17;
+  --color-resume-yellow-200: #fec20f;
+
+  --font-resume-ubuntu: "Ubuntu", sans-serif;
+}
