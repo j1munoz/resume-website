@@ -14,7 +14,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-resume-tan-100 font-resume-ubuntu antialiased">
-        
         {children}
       </body>
     </html>
