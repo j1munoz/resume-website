@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-resume-tan-100 font-resume-ubuntu antialiased flex flex-coL">
+      <body className="bg-resume-tan-100 font-resume-ubuntu antialiased flex flex-col gap-5">
         <NavBar />
         {children}
       </body>
