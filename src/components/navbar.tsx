@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="flex border-b-4 bg-white border-resume-yellow-200 items-center justify-between w-full p-5 sticky top-0 z-20">
+    <div className="flex border-b-4 bg-white border-resume-yellow-200 shadow-2xl items-center justify-between w-full p-5 sticky top-0 z-20">
       <Link
         href="/"
         className="text-2xl font-bold text-black hover:text-resume-yellow-200 transition-colors"
