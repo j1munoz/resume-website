@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Jimmy Munoz | Resume",
@@ -14,9 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-resume-tan-100 font-resume-ubuntu antialiased flex flex-col gap-5">
+      <body className="bg-resume-tan-100 font-resume-ubuntu antialiased flex flex-col">
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
