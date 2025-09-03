@@ -6,18 +6,18 @@ export interface Navigation {
 
 const navigations: Navigation[] = [
   {
-    name: "ABOUT",
+    name: "About",
     link: "/about",
   },
   {
-    name: "PROJECTS",
+    name: "Projects",
     link: "/projects",
   },
   {
-    name: "CONTACT",
+    name: "Contact",
     link: "/contact",
     style:
-      "text-white bg-resume-yellow-200 rounded-full hover:bg-resume-blue-100 transition-colors px-6 py-2",
+      "text-white bg-resume-teal-100 rounded-full hover:bg-resume-teal-200 transition-colors px-6 py-2",
   },
 ];
 

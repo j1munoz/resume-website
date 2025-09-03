@@ -3,10 +3,10 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="flex border-b-4 bg-white border-resume-yellow-200 shadow-2xl items-center justify-between w-full p-5 sticky top-0 z-20">
+    <div className="flex border-b-4 bg-resume-gray-200 border-resume-teal-100 shadow-2xl items-center justify-between w-full p-5 sticky top-0 z-50">
       <Link
         href="/"
-        className="text-2xl font-bold text-black hover:text-resume-yellow-200 transition-colors"
+        className="text-2xl font-bold text-white hover:text-resume-teal-200 transition-colors"
       >
         Jimmy Munoz
       </Link>
@@ -15,7 +15,7 @@ const Navbar = () => {
           <Link
             key={index}
             href={link}
-            className={`${style ? style : "text-2xl text-black hover:text-resume-yellow-200 mx-4"} text-2xl transition-colors`}
+            className={`${style ? style : "text-2xl text-white hover:text-resume-teal-200 mx-4"} text-2xl transition-colors`}
           >
             {name}
           </Link>
