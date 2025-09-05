@@ -11,8 +11,8 @@ const Introduction = () => {
   const textColors = useMemo(
     () => [
       "text-resume-teal-100",
-      "text-resume-red-100",
       "text-resume-purple-100",
+      "text-resume-red-100",
     ],
     [],
   );
