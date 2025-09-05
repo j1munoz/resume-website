@@ -3,7 +3,7 @@ import Informations from "@/components/home/informations";
 
 const Home = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-10 gap-y-20">
+    <div className="flex flex-col items-center justify-center gap-y-20 py-10">
       <Introduction />
       <Informations />
     </div>

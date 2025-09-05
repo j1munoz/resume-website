@@ -3,19 +3,19 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="flex border-b-4 bg-resume-gray-200 border-resume-teal-100 shadow-xl shadow-resume-teal-200 items-center justify-between w-full p-5 sticky top-0 z-50">
+    <div className="bg-resume-gray-200 border-resume-teal-100 shadow-resume-teal-200 sticky top-0 z-50 flex w-full items-center justify-between border-b-4 p-5 shadow-xl">
       <Link
         href="/"
-        className="text-2xl font-bold text-white hover:text-resume-teal-200 transition-colors"
+        className="hover:text-resume-teal-200 text-2xl font-bold text-white transition-colors"
       >
         Jimmy Munoz
       </Link>
-      <div className="flex gap-x-8 items-center">
+      <div className="flex items-center gap-x-8">
         {navigations.map(({ name, link, style }: Navigation, index) => (
           <Link
             key={index}
             href={link}
-            className={`${style ? style : "text-2xl text-white hover:text-resume-teal-200 mx-4"} text-2xl transition-colors`}
+            className={`${style ? style : "hover:text-resume-teal-200 mx-4 text-2xl text-white"} text-2xl transition-colors`}
           >
             {name}
           </Link>
