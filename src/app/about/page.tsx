@@ -5,7 +5,7 @@ const About = () => {
     <div className="flex flex-col items-center justify-center">
       <WhoIAm />
     </div>
-  )
+  );
 };
 
 export default About;
