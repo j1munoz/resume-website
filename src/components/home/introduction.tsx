@@ -11,8 +11,8 @@ const Introduction = () => {
   const textColors = useMemo(
     () => [
       "text-resume-teal-100",
-      "text-resume-blue-100",
-      "text-resume-yellow-100",
+      "text-resume-purple-100",
+      "text-resume-red-100",
     ],
     [],
   );
@@ -53,7 +53,7 @@ const Introduction = () => {
   return (
     <div className="flex items-center justify-between gap-20">
       <div className="flex flex-col items-center text-5xl">
-        <p>Hey There, I&apos;m Jimmy Munoz, a</p>
+        <p className="text-white">Hey There, I&apos;m Jimmy Munoz, a</p>
         <p className={`${textColors[colorIndex]}`}>
           {text}
           <span className="animate-blink">|</span>
